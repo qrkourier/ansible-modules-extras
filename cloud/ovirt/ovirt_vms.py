@@ -766,7 +766,7 @@ def main():
         force=dict(type='bool', default=False),
         nics=dict(default=[], type='list'),
         cloud_init=dict(type='dict'),
-        cloud_init_nics=dict(defaul=[], type='list'),
+        cloud_init_nics=dict(default=[], type='list'),
         sysprep=dict(type='dict'),
         host=dict(default=None),
         clone=dict(type='bool', default=False),
